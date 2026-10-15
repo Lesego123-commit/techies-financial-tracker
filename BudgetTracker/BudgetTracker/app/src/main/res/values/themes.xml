@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme using Material 3 -->
+    <style name="Theme.BudgetTracker" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand colour -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand colour -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar colour -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background</item>
+        <!-- Action bar -->
+        <item name="actionBarStyle">@style/Widget.BudgetTracker.ActionBar</item>
+    </style>
+
+    <!-- Custom action bar style -->
+    <style name="Widget.BudgetTracker.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/primary</item>
+        <item name="titleTextStyle">@style/Widget.BudgetTracker.ActionBar.Title</item>
+    </style>
+
+    <style name="Widget.BudgetTracker.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- No action bar variant for LoginActivity splash feel -->
+    <style name="Theme.BudgetTracker.NoActionBar" parent="Theme.BudgetTracker">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

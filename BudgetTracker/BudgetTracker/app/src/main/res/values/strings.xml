@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Techies Financial Tracker</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="view_expenses">View Expenses</string>
+    <string name="category_totals">Category Totals</string>
+    <string name="goal_settings">Monthly Goals</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_expenses_found">No expenses found for the selected period</string>
+    <string name="permission_camera_rationale">Camera permission is needed to take photos of receipts</string>
+</resources>

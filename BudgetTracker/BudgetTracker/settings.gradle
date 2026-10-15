@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // JitPack – required to resolve the MPAndroidChart charting library used by the Part 3 graphs.
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+rootProject.name = "BudgetTracker"
+include ':app'
